@@ -1,0 +1,13 @@
+body{ margin:5px; padding:5px; }
+img{float:left; width: 70px;}
+h1{ font-size:40px; color:rgb(11,107,150); padding: 12px 0;}
+h1>span{ color:#4F463A;}
+section p{ font-size:18px;}
+.search_field{ width:8%; height:35px;}
+
+section p span{text-align: center; top: 31px; left: 10px; position: relative;}
+span img{ float:none;}
+@media only screen and (max-width: 500px) {
+    .search_field{ width:25%; height:35px;}
+section p span{text-align: center; top: 31px; left: 10px; position: relative;}
+}
